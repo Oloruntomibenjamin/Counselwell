@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/jpeg" href="Img/logo.jpeg" />
+	<link rel="stylesheet" href="ai.css" />
+	<script src="ai.js" defer></script>
+	<title>Contact CounselWell | Get in Touch</title>
+</head>
+<body>
+	<header class="navbar">
+		<div class="container" style="display:flex;align-items:center;width:100%">
+			<a href="ai.html" class="brand" aria-label="CounselWell home"><img src="Img/logo.jpeg" alt="" /><span>CounselWell</span></a>
+			<nav class="nav-links" aria-label="Primary navigation">
+				<a href="services.html">Services</a><a href="therapists.html">Therapists</a><a href="about.html">About</a><a href="contact.html" aria-current="page">Contact</a>
+			</nav>
+			<div class="spacer" aria-hidden="true"></div>
+			<div class="menu" role="region" aria-label="Header controls">
+				<div class="search-group">
+					<button class="search-btn" id="searchToggle" aria-expanded="false" aria-controls="searchBox" aria-label="Open search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35" /><circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="1.6" /></svg></button>
+					<div id="searchBox" class="search-input hidden" role="search"><input id="searchInput" type="search" placeholder="Search this page..." aria-label="Search" /><button id="searchSubmit" class="search-btn" aria-label="Submit search">Go</button></div>
+					<p id="searchStatus" class="visually-hidden" role="status" aria-live="polite"></p>
+				</div>
+				<button class="menu-btn" id="menuToggle" aria-expanded="false" aria-controls="mobilePanel" aria-label="Open menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M3 6h18M3 12h18M3 18h18" /></svg></button>
+			</div>
+		</div>
+	</header>
+	<nav id="mobilePanel" class="mobile-panel container" aria-label="Mobile navigation" aria-hidden="true">
+		<a href="services.html">Services</a><a href="therapists.html">Therapists</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+	</nav>
+
+	<main class="container page-main">
+		<section class="subpage-hero">
+			<div>
+				<span class="eyebrow">We’re here to listen</span>
+				<h1>Contact Us on 08036414884</h1>
+				<p>Also Available on WhatsApp: +234 8036 414 884. <br>Whether you’re exploring counselling for yourself or someone you care about, you can contact us to ask about services, availability, and what to expect.</p>
+			</div>
+			<img src="https://images.pexels.com/photos/9064323/pexels-photo-9064323.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="A counsellor speaking with two clients in a bright, welcoming room" />
+		</section>
+
+		<section class="contact-layout content-section" aria-labelledby="contact-heading">
+			<div class="contact-panel">
+				<span class="eyebrow">Send us a message</span>
+				<h2 id="contact-heading">How can we help?</h2>
+				<p class="section-copy">Share a few details and we’ll be able to understand what information you’re looking for. Please don’t include sensitive medical or personal information in this demo form.</p>
+				<form id="contactForm">
+					<form action="https://api.web3forms.com/submit" method="POST">
+  						<input type="hidden" name="access_key" value="9b59c112-edf0-4ffc-ab4e-ca316eeae94d">
+					<div class="row">
+						<div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" placeholder="Full name" required /></div>
+						<div><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required /></div>
+					</div>
+					<label for="subject">What is your message about?</label>
+					<input id="subject" name="subject" placeholder="For example, service information" />
+					<label for="message">Message</label>
+					<textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+					<p class="section-copy"></p>
+					<button type="submit">Send message</button>
+				</form></form>
+			</div>
+			<aside class="contact-panel">
+				<img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=85" alt="A calm, light-filled workspace" style="width:100%;height:190px;object-fit:cover;border-radius:10px" loading="lazy" />
+				<h2>Before you reach out</h2>
+				<p>It’s okay if you’re not sure which service you need. You can ask about options, session formats, accessibility, and practical details.</p>
+				<h3>Opening hours</h3>
+				<p>Please contact the practice to confirm current availability and response times.</p>
+				<h3>Need urgent help?</h3>
+				<p>This website is not an emergency service. If you or someone else is in immediate danger, contact your local emergency services or crisis support line.</p>
+			</aside>
+		</section>
+
+		<section class="page-cta"><h2>Explore before you decide</h2><p>Learn more about the support options and people behind CounselWell.</p><a class="cta-btn" href="services.html">View our services</a></section>
+	</main>
+
+	<footer>
+		<div class="footer-grid container">
+			<div class="footer-col"><a href="ai.html" class="brand"><img src="Img/logo.jpeg" alt="" style="width:48px;height:48px" /><span>CounselWell</span></a><p>Compassionate counselling and support to help you thrive.</p></div>
+			<div class="footer-col"><h4>Explore</h4><nav class="footer-links" aria-label="Footer navigation"><a href="services.html">Services</a><a href="therapists.html">Therapists</a><a href="about.html">About us</a><a href="contact.html">Contact</a></nav></div>
+			<div class="footer-col"><h4>Privacy</h4><p>Please avoid sending sensitive information through this sample form.</p></div>
+			<div class="footer-col"><h4>Newsletter</h4><p>Get occasional wellbeing tips and updates.</p><form id="newsletterForm" class="newsletter"><input id="newsletterEmail" type="email" placeholder="Your email" aria-label="Email address" required /><button type="submit">Subscribe</button></form></div>
+		</div>
+		<div class="footer-bottom container"><span>&copy; CounselWell</span><button class="back-to-top" id="backToTop" aria-label="Back to top">Back to top ↑</button></div>
+	</footer>
+</body>
+</html>

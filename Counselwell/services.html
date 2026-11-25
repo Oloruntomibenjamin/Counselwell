@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/jpeg" href="Img/logo.jpeg" />
+	<link rel="stylesheet" href="ai.css" />
+	<script src="ai.js" defer></script>
+	<title>Counselling Services | CounselWell</title>
+</head>
+<body>
+	<header class="navbar">
+		<div class="container" style="display:flex;align-items:center;width:100%">
+			<a href="ai.html" class="brand" aria-label="CounselWell home"><img src="Img/logo.jpeg" alt="" /><span>CounselWell</span></a>
+			<nav class="nav-links" aria-label="Primary navigation">
+				<a href="services.html" aria-current="page">Services</a><a href="therapists.html">Therapists</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+			</nav>
+			<div class="spacer" aria-hidden="true"></div>
+			<div class="menu" role="region" aria-label="Header controls">
+				<div class="search-group">
+					<button class="search-btn" id="searchToggle" aria-expanded="false" aria-controls="searchBox" aria-label="Open search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35" /><circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="1.6" /></svg></button>
+					<div id="searchBox" class="search-input hidden" role="search"><input id="searchInput" type="search" placeholder="Search this page..." aria-label="Search" /><button id="searchSubmit" class="search-btn" aria-label="Submit search">Go</button></div>
+					<p id="searchStatus" class="visually-hidden" role="status" aria-live="polite"></p>
+				</div>
+				<button class="menu-btn" id="menuToggle" aria-expanded="false" aria-controls="mobilePanel" aria-label="Open menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M3 6h18M3 12h18M3 18h18" /></svg></button>
+			</div>
+		</div>
+	</header>
+	<nav id="mobilePanel" class="mobile-panel container" aria-label="Mobile navigation" aria-hidden="true">
+		<a href="services.html">Services</a><a href="therapists.html">Therapists</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+	</nav>
+
+	<main class="container page-main">
+		<section class="subpage-hero">
+			<div>
+				<span class="eyebrow">Care that meets you where you are</span>
+				<h1>Find the kind of support that feels right.</h1>
+				<p>There isn’t one path that works for everyone. Explore our counselling options and get in touch to talk through what might suit your needs, goals, and schedule.</p>
+				<a class="cta-btn" href="contact.html">Talk with our team <span aria-hidden="true">→</span></a>
+			</div>
+			<img src="https://images.pexels.com/photos/9064323/pexels-photo-9064323.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="A counsellor speaking with two clients in a bright, welcoming room" />
+		</section>
+
+		<section class="content-section" aria-labelledby="service-options">
+			<div class="page-intro">
+				<span class="eyebrow">Our services</span>
+				<h2 id="service-options">Support for different seasons of life</h2>
+				<p>Sessions are collaborative and shaped around what matters to you. We’ll discuss your preferences and help you decide on a next step.</p>
+			</div>
+			<div class="photo-grid">
+				<article class="photo-card">
+					<img src="https://images.pexels.com/photos/9064323/pexels-photo-9064323.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="A counsellor speaking with two clients in a bright, welcoming room" loading="lazy" />
+					<div class="photo-card-content"><h3>Individual counselling</h3><p>A confidential space to explore stress, life changes, relationships, or personal goals with a therapist.</p><p><strong>Good to know:</strong> You can begin with a conversation about what brings you in and what you hope will change.</p></div>
+				</article>
+				<article class="photo-card">
+					<img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1000&q=85" alt="A couple speaking with a relationship counsellor" loading="lazy" />
+					<div class="photo-card-content"><h3>Couples counselling</h3><p>Guided conversations for partners who want to understand each other better and work through recurring challenges.</p><p><strong>Focus areas:</strong> Communication, connection, boundaries, and shared decisions.</p></div>
+				</article>
+				<article class="photo-card">
+					<img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=85" alt="People gathered together for a supportive group discussion" loading="lazy" />
+					<div class="photo-card-content"><h3>Groups and workshops</h3><p>Small-group learning on practical wellbeing skills, coping strategies, and building supportive connections.</p><p><strong>Format:</strong> Topics and schedules can vary; ask us about current and upcoming groups.</p></div>
+				</article>
+				<article class="photo-card">
+					<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85" alt="A person using a laptop for a remote conversation" loading="lazy" />
+					<div class="photo-card-content"><h3>Online sessions</h3><p>Where available, meet remotely from a private space that works for you, without travelling to an office.</p><p><strong>Before you book:</strong> Ask about availability, privacy, and whether remote sessions are appropriate for your situation.</p></div>
+				</article>
+				<article class="photo-card">
+					<img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1000&q=85" alt="Young person in a calm, supportive setting" loading="lazy" />
+					<div class="photo-card-content"><h3>Support for young people</h3><p>Age-appropriate support that takes a young person’s comfort, needs, and family context into account.</p><p><strong>Next step:</strong> Contact us to discuss age ranges, consent, and the services currently offered.</p></div>
+				</article>
+				<article class="photo-card">
+					<img src="https://images.unsplash.com/photo-1522973717924-b10fe4e185cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Partners spending time together outdoors" loading="lazy" />
+					<div class="photo-card-content"><h3>Relationship support</h3><p>Space to reflect on patterns, strengthen communication, and consider practical ways forward—together or individually.</p><p><strong>Your pace:</strong> We’ll agree on a focus and review what feels useful as you go.</p></div>
+				</article>
+			</div>
+		</section>
+
+		<section class="content-section">
+			<h2>What to expect from a first conversation</h2>
+			<div class="info-grid">
+				<article class="info-card"><h3>Start with your priorities</h3><p>Tell us what you’re looking for, what feels important, and any preferences you have about support.</p></article>
+				<article class="info-card"><h3>Explore possible options</h3><p>We can explain the formats currently available and answer practical questions before you decide.</p></article>
+				<article class="info-card"><h3>Choose your next step</h3><p>You can take time to think. If you decide to proceed, we’ll discuss a suitable appointment and what happens next.</p></article>
+			</div>
+		</section>
+
+		<section class="page-cta"><h2>Not sure where to begin?</h2><p>Send a message and let us know what kind of support you’re exploring.</p><a class="cta-btn" href="contact.html">Contact CounselWell</a></section>
+	</main>
+
+	<footer>
+		<div class="footer-grid container">
+			<div class="footer-col"><a href="ai.html" class="brand"><img src="Img/logo.jpeg" alt="" style="width:48px;height:48px" /><span>CounselWell</span></a><p>Compassionate counselling and support to help you thrive.</p></div>
+			<div class="footer-col"><h4>Explore</h4><nav class="footer-links" aria-label="Footer navigation"><a href="services.html">Services</a><a href="therapists.html">Therapists</a><a href="about.html">About us</a><a href="contact.html">Contact</a></nav></div>
+			<div class="footer-col"><h4>Take your time</h4><p>Choosing support is personal. Get in touch with questions before making a decision.</p><a href="contact.html">Ask a question</a></div>
+			<div class="footer-col"><h4>Newsletter</h4><p>Get occasional wellbeing tips and updates.</p><form id="newsletterForm" class="newsletter"><input id="newsletterEmail" type="email" placeholder="Your email" aria-label="Email address" required /><button type="submit">Subscribe</button></form></div>
+		</div>
+		<div class="footer-bottom container"><span>&copy; CounselWell</span><button class="back-to-top" id="backToTop" aria-label="Back to top">Back to top ↑</button></div>
+	</footer>
+</body>
+</html>

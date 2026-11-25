@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/jpeg" href="Img/logo.jpeg" />
+	<link rel="stylesheet" href="ai.css" />
+	<script src="ai.js" defer></script>
+	<title>Our Therapists | CounselWell</title>
+</head>
+<body>
+	<header class="navbar">
+		<div class="container" style="display:flex;align-items:center;width:100%">
+			<a href="ai.html" class="brand" aria-label="CounselWell home"><img src="Img/logo.jpeg" alt="" /><span>CounselWell</span></a>
+			<nav class="nav-links" aria-label="Primary navigation">
+				<a href="services.html">Services</a><a href="therapists.html" aria-current="page">Therapists</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+			</nav>
+			<div class="spacer" aria-hidden="true"></div>
+			<div class="menu" role="region" aria-label="Header controls">
+				<div class="search-group">
+					<button class="search-btn" id="searchToggle" aria-expanded="false" aria-controls="searchBox" aria-label="Open search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35" /><circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="1.6" /></svg></button>
+					<div id="searchBox" class="search-input hidden" role="search"><input id="searchInput" type="search" placeholder="Search this page..." aria-label="Search" /><button id="searchSubmit" class="search-btn" aria-label="Submit search">Go</button></div>
+					<p id="searchStatus" class="visually-hidden" role="status" aria-live="polite"></p>
+				</div>
+				<button class="menu-btn" id="menuToggle" aria-expanded="false" aria-controls="mobilePanel" aria-label="Open menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M3 6h18M3 12h18M3 18h18" /></svg></button>
+			</div>
+		</div>
+	</header>
+	<nav id="mobilePanel" class="mobile-panel container" aria-label="Mobile navigation" aria-hidden="true">
+		<a href="services.html">Services</a><a href="therapists.html">Therapists</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+	</nav>
+
+	<main class="container page-main">
+		<section class="subpage-hero">
+			<div>
+				<span class="eyebrow">Meet your care team</span>
+				<h1>Good support starts with a good connection.</h1>
+				<p>Finding someone you feel comfortable talking with matters. Learn about the practice’s approach and ask us about therapist availability, areas of experience, and fit.</p>
+				<a class="cta-btn" href="contact.html">Ask about availability <span aria-hidden="true">→</span></a>
+			</div>
+			<img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=85" alt="Therapist portrait in a welcoming professional setting" />
+		</section>
+
+		<section class="content-section" aria-labelledby="team-heading">
+			<div class="page-intro"><span class="eyebrow">Our team</span><h2 id="team-heading">People who listen without judgement</h2><p>These sample profiles show how team information can appear. Replace the names, photographs, qualifications, and descriptions with verified details for your actual clinicians before publishing.</p></div>
+			<div class="team-grid">
+				<article class="team-card">
+					<img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=85" alt="Sample profile portrait for Alice Baker" loading="lazy" />
+					<div><h3>Alice Baker</h3><p><strong>Example area:</strong> Cognitive behavioural approaches</p><p>Alice’s sample profile focuses on collaborative goal-setting and practical strategies for navigating stress and life changes.</p><p><strong>Languages:</strong> Add verified languages<br /><strong>Availability:</strong> Ask our team</p></div>
+				</article>
+				<article class="team-card">
+					<img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=85" alt="Sample profile portrait for John Doe" loading="lazy" />
+					<div><h3>Janet Doe</h3><p><strong>Example area:</strong> Child and family support</p><p>This sample profile describes a warm, age-aware approach that includes family context where appropriate.</p><p><strong>Languages:</strong> Add verified languages<br /><strong>Availability:</strong> Ask our team</p></div>
+				</article>
+				<article class="team-card">
+					<img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85" alt="Sample profile portrait for Kim Matthews" loading="lazy" />
+					<div><h3>Kim Matthews</h3><p><strong>Example area:</strong> Relationship counselling</p><p>This sample profile highlights careful listening and structured conversations to support communication and connection.</p><p><strong>Languages:</strong> Add verified languages<br /><strong>Availability:</strong> Ask our team</p></div>
+				</article>
+			</div>
+		</section>
+
+		<section class="content-section">
+			<h2>Questions to help you find a fit</h2>
+			<div class="info-grid">
+				<article class="info-card"><h3>What experience do you have?</h3><p>Ask about a therapist’s training and experience with the topics you want to discuss.</p></article>
+				<article class="info-card"><h3>What approach do you use?</h3><p>Learn what sessions may involve and how you and your therapist will agree on goals.</p></article>
+				<article class="info-card"><h3>Can I request a different match?</h3><p>It’s okay to talk openly about what helps you feel safe and comfortable in a professional relationship.</p></article>
+			</div>
+		</section>
+
+		<section class="page-cta"><h2>We can help you learn more</h2><p>Send us a note with your questions, and we’ll share information about current options.</p><a class="cta-btn" href="contact.html">Contact the team</a></section>
+	</main>
+
+	<footer>
+		<div class="footer-grid container">
+			<div class="footer-col"><a href="ai.html" class="brand"><img src="Img/logo.jpeg" alt="" style="width:48px;height:48px" /><span>CounselWell</span></a><p>Compassionate counselling and support to help you thrive.</p></div>
+			<div class="footer-col"><h4>Explore</h4><nav class="footer-links" aria-label="Footer navigation"><a href="services.html">Services</a><a href="therapists.html">Therapists</a><a href="about.html">About us</a><a href="contact.html">Contact</a></nav></div>
+			<div class="footer-col"><h4>Questions?</h4><p>Ask about qualifications, availability, and whether a therapist may be a good fit.</p><a href="contact.html">Get in touch</a></div>
+			<div class="footer-col"><h4>Newsletter</h4><p>Get occasional wellbeing tips and updates.</p><form id="newsletterForm" class="newsletter"><input id="newsletterEmail" type="email" placeholder="Your email" aria-label="Email address" required /><button type="submit">Subscribe</button></form></div>
+		</div>
+		<div class="footer-bottom container"><span>&copy; CounselWell</span><button class="back-to-top" id="backToTop" aria-label="Back to top">Back to top ↑</button></div>
+	</footer>
+</body>
+</html>
